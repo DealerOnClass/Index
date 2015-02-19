@@ -1,0 +1,10 @@
+////////////////////////////////////////////
+//
+// Logo
+//
+.logo {
+    @include margin-leader(1);
+    @include media(large) {
+        margin-top: 0;
+    }
+}

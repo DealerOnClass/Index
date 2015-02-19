@@ -1,0 +1,16 @@
+# Site settings
+title: DealerOn Academy
+email: alberto@dealeron.com
+description: DealerOn Class Index
+baseurl: "/Index/" # the subpath of your site, e.g. /blog/
+url: "http://asilvadesigns.com"
+
+# Build settings
+permalink: :categories/:title.html
+markdown: kramdown
+
+kramdown:
+  auto_ids: false
+
+gems:
+- jekyll-compass

@@ -1,0 +1,50 @@
+////////////////////////////////////////////
+//
+// Clear
+//
+%grid--clear{
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+////////////////////////////////////////////
+//
+// Wrapper
+//
+.wrapper {
+    @extend %grid--clear;
+    margin: 0 auto;
+    padding: 0 rhythm(1);
+    max-width: $screen--large;
+}
+////////////////////////////////////////////
+//
+// Grid
+//
+.grid {
+    @extend %grid--clear;    
+}
+.grid--row {
+    margin-top: $section__rhythm;
+    &:last-child {
+        margin-bottom: $section__rhythm;        
+    }
+}
+.col {
+    @extend %grid--clear;
+    @include media(medium) {
+        float: left;
+        @include box-sizing;
+    }
+}
+.col--1 {
+    width: 1/3 *100%;
+}
+.col--2 {
+    width: 2/3 *100%;
+}
+.col--half {
+    width: 1/2 *100%;    
+}

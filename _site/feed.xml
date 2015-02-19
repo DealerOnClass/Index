@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DealerOn Academy</title>
+    <description>DealerOn Class Index</description>
+    <link>http://asilvadesigns.com/Index//</link>
+    <atom:link href="http://asilvadesigns.com/Index//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 19 Feb 2015 15:49:41 -0500</pubDate>
+    <lastBuildDate>Thu, 19 Feb 2015 15:49:41 -0500</lastBuildDate>
+    <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>html 02</title>
+        <description>&lt;p&gt;Hello this is a test again&lt;/p&gt;</description>
+        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
+        <link>http://asilvadesigns.com/Index//html/html-02.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/Index//html/html-02.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Yup&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Yea&quot;}</category>
+        
+        
+        <category>html</category>
+        
+      </item>
+    
+      <item>
+        <title>html 01</title>
+        <description>&lt;p&gt;Hello this is a test&lt;/p&gt;</description>
+        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
+        <link>http://asilvadesigns.com/Index//html/html-01.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/Index//html/html-01.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Yup&quot;}</category>
+        
+        
+        <category>html</category>
+        
+      </item>
+    
+      <item>
+        <title>css 01</title>
+        <description>&lt;p&gt;Hello this is another test&lt;/p&gt;</description>
+        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
+        <link>http://asilvadesigns.com/Index//css/css-01.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/Index//css/css-01.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Yup&quot;}</category>
+        
+        
+        <category>css</category>
+        
+      </item>
+    
+      <item>
+        <title>bootstrap 01</title>
+        <description>&lt;p&gt;Hello this is a test&lt;/p&gt;</description>
+        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
+        <link>http://asilvadesigns.com/Index//bootstrap/bootstrap-01.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/Index//bootstrap/bootstrap-01.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Yupers&quot;}</category>
+        
+        
+        <category>bootstrap</category>
+        
+      </item>
+    
+  </channel>
+</rss>

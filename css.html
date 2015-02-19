@@ -1,0 +1,20 @@
+---
+layout: page
+title: css
+permalink: /css/
+group: "navigation"
+---
+<ul>    
+    {% for post in site.categories['css'] %}
+    <li>
+        <a href="{{ post.url | prepend: site.baseurl }}">
+            <span class="post__title">{{ post.title }}</span>
+        </a>
+        <ul class="post__tags list--inline list--commas">
+            {% for item in post.tags %}
+                <li>{{ item.tag }}</li>                        
+            {% endfor %}
+        </ul>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,18 @@
+////////////////////////////////////////////
+//
+// Helper
+//
+.sub .hidden--sub {
+    display: none;
+}
+.hidden__small {
+    display: none;
+    @include media(large) {
+        display: inline;
+    }
+}
+.hidden__large {
+    @include media(large) {
+        display: none;
+    }
+}

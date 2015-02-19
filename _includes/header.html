@@ -1,0 +1,22 @@
+<nav class="site__nav">
+    <article class="wrapper">
+        <ul class="nav nav--primary nav--collapse">
+            <li class="nav__item nav__item--left">
+                <a class="nav__link" href="{{ site.baseurl }}">
+                    <span class="hidden__small logo">{{ site.title }}</span>
+                    <span class="hidden__large">Index</span>
+                </a>
+            </li>
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include pages_list.html %}
+        </ul>
+    </article>
+</nav>
+<header class="site__header">
+    <article class="wrapper">
+        <p class="logo">
+            <a class="hidden__large" href="{{ site.baseurl }}">{{ site.title }}</a>
+        </p>
+    </article>
+</header>
