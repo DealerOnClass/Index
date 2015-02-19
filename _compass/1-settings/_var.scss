@@ -15,8 +15,6 @@ $screen--small: 30em;
 $rhythm-unit: "em";
 $round-to-nearest-half-line: true;
 
-$section__rhythm: 5em;
-
 // Major Third 1.250
 $h1: 2.441;
 $h2: 1.953;
@@ -47,9 +45,16 @@ $site__color: $neutral__color;
 $site__link__color: $accent__color;
 $site__link__color--hover: darken($site__link__color, 10%);
 
-$site__nav__bg: $primary__color;
+$site__nav__bg: $neutral__color;
+$site__nav__bg--large: $primary__color;
+$site__header__bg: $primary__color;
 $site__footer__bg: $neutral__color;
 
-$nav__toggle__color: $accent__color;
+$nav__toggle__color: white;
+$nav__link--active__color: $accent__color;
+$nav--secondary__border: $accent__color;
 
 $post__tags__color: $neutral__color--light;
+
+$heading--primary__color: $primary__color;
+$heading--secondary__color: $neutral__color;

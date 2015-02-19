@@ -6,11 +6,15 @@ class: sub
 <main class="site__main">
     <article class="wrapper">
         <section>
+            <header class="heading--group">
+                <h3 class="heading--primary">{{ page.heading--primary }}</h3>
+                <h5 class="heading--secondary">{{ page.heading--secondary }}</h5>
+            </header>
             {{ content }}
         </section>
         <section>
             <ul>
-                {% for post in site.posts reversed %}
+                {% for post in site.posts %}
                 {% if post.categories contains 'html' %}
                 <li>
                     <a href="{{ post.url | prepend: site.baseurl }}">

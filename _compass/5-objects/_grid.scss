@@ -27,9 +27,9 @@
     @extend %grid--clear;    
 }
 .grid--row {
-    margin-top: $section__rhythm;
+    margin-bottom: rhythm(2);
     &:last-child {
-        margin-bottom: $section__rhythm;        
+        margin-bottom: rhythm(1);
     }
 }
 .col {

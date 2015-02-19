@@ -1,0 +1,13 @@
+////////////////////////////////////////////
+//
+// Headings
+//
+.heading--group {
+    @include margin-trailer(2);
+}
+.heading--primary {
+    color: $heading--primary__color;
+}
+.heading--secondary {
+    color: $heading--secondary__color;    
+}

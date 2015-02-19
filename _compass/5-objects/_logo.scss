@@ -3,8 +3,9 @@
 // Logo
 //
 .logo {
-    @include margin-leader(1);
+    padding: rhythm(1) 0;
+    margin-bottom: 0;
     @include media(large) {
-        margin-top: 0;
+        padding-top: 0;
     }
 }

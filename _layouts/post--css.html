@@ -1,0 +1,42 @@
+---
+layout: default
+class: sub
+---
+
+<main class="site__main">
+    <article class="wrapper">
+        <section>
+            <header class="heading--group">
+                <h3 class="heading--primary">{{ page.heading--primary }}</h3>
+                <h5 class="heading--secondary">{{ page.heading--secondary }}</h5>
+            </header>
+            {{ content }}
+        </section>
+        <nav>
+            <ul class="nav nav--secondary">
+            {% for category in site.categories %}
+            {% assign catg_name = category.first %}
+                {% if catg_name == page.categories.first | downcase %}
+                    {% assign catg_posts = category.last %}
+                {% endif %}
+            {% endfor %}
+            {% for post in catg_posts %}
+                {% if post.title == page.title %}
+                    {% unless forloop.last %}
+                        {% assign next = catg_posts[forloop.index] %}
+                        <li class="nav__item nav__item--left">
+                            <a class="nav__link" href="{{ site.baseurl }}{{ next.url }}">Prev</a>
+                        </li>
+                    {% endunless %}
+                    {% unless forloop.first %}
+                        <li class="nav__item nav__item--right">
+                            <a class="nav__link" href="{{ site.baseurl }}{{ prev.url }}">Next</a>
+                        </li>
+                    {% endunless %}
+                {% endif %}
+                {% assign prev = post %}
+            {% endfor %}
+            </ul>
+        </nav>
+    </article>
+</main>

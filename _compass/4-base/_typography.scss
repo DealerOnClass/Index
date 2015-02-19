@@ -35,6 +35,7 @@ p, ul {
     @include margin-trailer(1);
 }
 strong, em {
+    @include font(code--bold);
 }
 a {
     color: $site__link__color;

@@ -1,0 +1,24 @@
+////////////////////////////////////////////
+//
+// Site Nav
+//
+.site__nav {
+    background-color: $site__nav__bg;
+    .nav__link {
+        color: white;
+        text-transform: capitalize;
+    }
+    .active {
+        color: $nav__link--active__color;
+    }
+    @include media(large) {
+        background-color: $site__nav__bg--large;
+        margin-bottom: rhythm(2);
+    }
+}
+.nav--secondary {
+    border-top: 1px solid $nav--secondary__border;
+    .nav__link {
+
+    }
+}
