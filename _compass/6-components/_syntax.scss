@@ -3,13 +3,34 @@
 // SYNTAX
 //
 .syntax {
+    @include border-radius(.25rem);
+    padding: rhythm(.25) rhythm(.5);
     background-color: #2D2D2D;
-    color: #FFF;
+    color: #FFF;    
 }
+table .syntax {
+    margin-right: rhythm(1);
+}
+%element { color: $syntax__element__color; }
+%attribute { color: $syntax__attribute__color; }
+%value { color: $syntax__value__color; }
 ////////////////////////////////////////////
 //
 // HTML
 //
-.html--element { color: #F27770; }
-.html--attribute { color: #F99150; }
-.html--value { color: #99CC99; }
+.html--element { @extend %element; }
+.html--attribute { @extend %attribute; }
+.html--value { @extend %value; }
+.html--indent {
+    margin-left: rhythm(1);
+}
+////////////////////////////////////////////
+//
+// CSS
+//
+.css--selector { @extend %element; }
+.css--property { @extend %attribute; }
+.css--value { @extend %value; }
+.css--indent {
+    margin-left: rhythm(2);
+}

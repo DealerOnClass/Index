@@ -8,7 +8,7 @@ group: "navigation"
     {% for post in site.categories['css'] reversed %}
     <li>
         <a href="{{ post.url | prepend: site.baseurl }}">
-            <span class="post__title">{{ post.title }}</span>
+            <span class="post__title">{{ post.heading--primary }}</span>
         </a>
         <ul class="post__tags list--inline list--commas">
             {% for item in post.tags %}

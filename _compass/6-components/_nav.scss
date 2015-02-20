@@ -4,10 +4,24 @@
 //
 .site__nav {
     background-color: $site__nav__bg;
+    .nav__item {
+        &:first-child .nav__link {
+            padding-top: rhythm(1);
+        }
+        &:last-child .nav__link {
+            padding-bottom: rhythm(1);
+        }
+    }
+    .nav__item--left {    
+        @include media(large) {
+            float:left;
+            margin-left: 0;
+        }
+    }
     .nav__link {
         color: white;
         text-transform: capitalize;
-    }
+    }    
     .active {
         color: $nav__link--active__color;
     }
@@ -16,9 +30,25 @@
         margin-bottom: rhythm(2);
     }
 }
+////////////////////////////////////////////
+//
+// Secondary Nav
+//
 .nav--secondary {
-    border-top: 1px solid $nav--secondary__border;
+    @include margin-trailer(2);
+    @include clearfix;
+    .nav__item--left {    
+        float:left;
+        margin-left: 0;
+    }
     .nav__link {
-
+        @include border-radius(.25rem);
+        @include transition(.25s, color, ease-in-out);
+        background-color: $accent__color;
+        color: white;
+        padding: rhythm(.25) rhythm(.5);
+        &:hover, &:active, &:focus {
+            background-color: darken($accent__color, 5%);
+        }
     }
 }

@@ -3,8 +3,158 @@ layout: post--css
 title:  "css 01"
 date:   2015-2-19 18:20:27
 categories: css
+heading--primary: Syntax &amp; Selectors
+heading--secondary: Go style yourself
 tags: 
-  - tag: Test
-  - tag: Yup
+  - tag: Selector
+  - tag: Property
+  - tag: Value  
 ---
-<p>Hello this is another test</p>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">CSS</h5>
+    </div>
+    <div class="col col--2">
+        <p>CSS is a set of overriding rules that define how HTML elements are displayed.</p>
+        <ul>
+            <li><strong>C</strong>ascading</li>
+            <li><strong>S</strong>tyle</li>
+            <li><strong>S</strong>heets</li>            
+        </ul>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Syntax</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">selector&nbsp;</span><span>{</span><span class="css--property">&nbsp;property</span><span>:</span><span class="css--value">value</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">p&nbsp;</span><span>{</span><span class="css--property">&nbsp;font-size</span><span>:</span><span class="css--value">12px</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">p&nbsp;</span><span>{</span><br><span class="css--indent css--property">font-size</span><span>:</span><span class="css--value">12px;</span><br><span class="css--indent css--property">line-height</span><span>:</span><span class="css--value">1.4;</span><br><span>}</span>
+            </code>
+        </p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Selectors</h5>
+    </div>
+    <div class="col col--2">
+        <p>Use CSS selectors to target HTML elements</p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Element</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span>&lt;</span><span class="html--element">h1&nbsp;</span><span class="html--attribute">class</span><span>=</span><span>&quot;</span><span class="html--value">panel-heading</span><span>&quot;</span><span>&gt;</span><span>Chicken</span><span>&lt;/</span><span class="html--element">h1</span><span>&gt;</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">h1&nbsp;</span><span>{</span><span class="css--property">&nbsp;font-size</span><span>:</span><span class="css--value">12px</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Class</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span>&lt;</span><span class="html--element">h1&nbsp;</span><span class="html--attribute">class</span><span>=</span><span>&quot;</span><span class="html--value">panel-heading</span><span>&quot;</span><span>&gt;</span><span>Chicken</span><span>&lt;/</span><span class="html--element">h1</span><span>&gt;</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.panel-heading&nbsp;</span><span>{</span><span class="css--property">&nbsp;font-size</span><span>:</span><span class="css--value">12px</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Id</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span>&lt;</span><span class="html--element">h1&nbsp;</span><span class="html--attribute">id</span><span>=</span><span>&quot;</span><span class="html--value">panel-heading</span><span>&quot;</span><span>&gt;</span><span>Chicken</span><span>&lt;/</span><span class="html--element">h1</span><span>&gt;</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">#panel-heading&nbsp;</span><span>{</span><span class="css--property">&nbsp;font-size</span><span>:</span><span class="css--value">12px</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Descendant</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span>&lt;</span><span class="html--element">h1</span><span>&gt;</span><br><span class="html--indent">&lt;</span><span class="html--element">span</span><span>&gt;</span><span>Super</span><span>&lt;/</span><span class="html--element">span</span><span>&gt;</span><span>Chicken</span><br><span>&lt;/</span><span class="html--element">h1</span><span>&gt;</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">h1&nbsp;span&nbsp;</span><span>{</span><span class="css--property">&nbsp;color</span><span>:</span><span class="css--value">blue</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Direct Child</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span>&lt;</span><span class="html--element">h1</span><span>&gt;</span><br><span class="html--indent">&lt;</span><span class="html--element">span</span><span>&gt;</span><span>Super</span><span>&lt;/</span><span class="html--element">span</span><span>&gt;</span><span>Chicken</span><br><span>&lt;/</span><span class="html--element">h1</span><span>&gt;</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">h1&nbsp;>&nbsp;span&nbsp;</span><span>{</span><span class="css--property">&nbsp;color</span><span>:</span><span class="css--value">blue</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Adjacent</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span>&lt;</span><span class="html--element">h1</span><span>&gt;</span><br><span class="html--indent">&lt;</span><span class="html--element">span</span><span>&gt;</span><span>Super</span><span>&lt;/</span><span class="html--element">span</span><span>&gt;</span><span>Chicken</span><br><span>&lt;/</span><span class="html--element">h1</span><span>&gt;</span>
+            </code><br>
+            <code>
+                <span>&lt;</span><span class="html--element">h1</span><span>&gt;</span><br><span class="html--indent">&lt;</span><span class="html--element">span</span><span>&gt;</span><span>Super</span><span>&lt;/</span><span class="html--element">span</span><span>&gt;</span><span>Chicken</span><br><span>&lt;/</span><span class="html--element">h1</span><span>&gt;</span>
+            </code>
+        </p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">h1&nbsp;+&nbsp;h1&nbsp;</span><span>{</span><span class="css--property">&nbsp;color</span><span>:</span><span class="css--value">blue</span><span>;&nbsp;}</span>
+            </code>
+        </p>
+    </div>
+</div>
