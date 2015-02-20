@@ -25,12 +25,12 @@ class: sub
                     {% unless forloop.last %}
                         {% assign next = catg_posts[forloop.index] %}
                         <li class="nav__item nav__item--left">
-                            <a class="nav__link" href="{{ site.baseurl }}{{ next.url }}">Prev</a>
+                            <a class="nav__link [ btn btn--cta ]" href="{{ site.baseurl }}{{ next.url }}">Prev</a>
                         </li>
                     {% endunless %}
                     {% unless forloop.first %}
                         <li class="nav__item nav__item--right">
-                            <a class="nav__link" href="{{ site.baseurl }}{{ prev.url }}">Next</a>
+                            <a class="nav__link [ btn btn--cta ]" href="{{ site.baseurl }}{{ prev.url }}">Next</a>
                         </li>
                     {% endunless %}
                 {% endif %}

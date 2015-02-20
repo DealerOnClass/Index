@@ -11,5 +11,6 @@
     }
 }
 .footer__nav {
+    @include margin-leader(1);
     background-color: darken($site__footer__bg, 5%);
 }

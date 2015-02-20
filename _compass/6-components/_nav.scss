@@ -59,18 +59,7 @@
     }
     .nav__item--right {
         float: right;
-    }
-    .nav__link {
-        @include border-radius(.25rem);
-        @include transition(.25s, color, ease-in-out);
-        display: block;
-        background-color: $accent__color;
-        color: white;
-        padding: rhythm(.25) rhythm(.5);
-        &:hover, &:active, &:focus {
-            background-color: darken($accent__color, 5%);
-        }
-    }
+    }    
 }
 ////////////////////////////////////////////
 //
@@ -86,6 +75,6 @@
     .nav__link {
         text-transform: capitalize;
         display: inline-block;
-        padding: rhythm(.5) 0;
+        padding: rhythm(1) 0;
     }
 }

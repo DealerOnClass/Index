@@ -1,0 +1,18 @@
+////////////////////////////////////////////
+//
+// Button
+//
+.btn {
+    display: block;
+}
+.btn--cta {
+    @include border-radius(.25rem);
+    @include transition(.25s, background-color, ease-in-out);
+    background-color: $accent__color;
+    color: white;
+    padding: rhythm(.25) rhythm(.5);
+    &:hover, &:active, &:focus {
+        color: white;        
+        background-color: darken($accent__color, 5%);
+    }
+}

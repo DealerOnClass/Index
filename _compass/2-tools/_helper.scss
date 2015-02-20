@@ -16,3 +16,14 @@
         display: none;
     }
 }
+.counter--reset {
+    counter-reset: section;
+}
+.counter--increment {
+    counter-increment: section;
+    &:after {
+        content: counters(section, ".") " ";
+        display: inline-block;
+        margin-left: rhythm(.25);
+    }
+}

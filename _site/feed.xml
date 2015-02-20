@@ -5,9 +5,53 @@
     <description>DealerOn Class Index</description>
     <link>http://asilvadesigns.com/Index//</link>
     <atom:link href="http://asilvadesigns.com/Index//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Feb 2015 13:50:20 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2015 13:50:20 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Feb 2015 17:13:01 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Feb 2015 17:13:01 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
+    
+      <item>
+        <title>exercise 02</title>
+        <description>&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Tools&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Notepad, Browser&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Objective&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Understand the basic HTML document structure&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Instructions&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Continue from previous lession.&lt;/li&gt;
+            &lt;li&gt;Declare the proper HTML document declaration.&lt;/li&gt;
+            &lt;li&gt;Declare title and style tags.&lt;/li&gt;
+            &lt;li&gt;Wrap body contents.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Fri, 20 Feb 2015 13:20:27 -0500</pubDate>
+        <link>http://asilvadesigns.com/Index//exercise/exercise-02.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/Index//exercise/exercise-02.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;HTML&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Document Structure&quot;}</category>
+        
+        
+        <category>exercise</category>
+        
+      </item>
     
       <item>
         <title>css 02</title>
@@ -400,6 +444,51 @@
       </item>
     
       <item>
+        <title>exercise 01</title>
+        <description>&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Tools&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Notepad, Browser&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Objective&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Become comfortable marking up text with the proper semantic typographic elements.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Instructions&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Open up notepad or similar text editor. &lt;strong&gt;NOT CODE EDITOR&lt;/strong&gt;&lt;/li&gt;
+            &lt;li&gt;Create a new file with a .html extension (show hidden file extension in windows first).&lt;/li&gt;
+            &lt;li&gt;Grab dummy text from &lt;a href=&quot;http://www.fillerati.com/&quot;&gt;Fillerati.&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;Markup the text using only typographic elements. No sectioning elements, or document structure.&lt;/li&gt;
+            &lt;li&gt;Save and open in browser.&lt;/li&gt;
+        &lt;/ol&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
+        <link>http://asilvadesigns.com/Index//exercise/exercise-01.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/Index//exercise/exercise-01.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;HTML&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Typographic Elements&quot;}</category>
+        
+        
+        <category>exercise</category>
+        
+      </item>
+    
+      <item>
         <title>css 01</title>
         <description>&lt;div class=&quot;grid grid--row&quot;&gt;
     &lt;div class=&quot;col col--1&quot;&gt;
@@ -587,58 +676,6 @@
         
         
         <category>class</category>
-        
-      </item>
-    
-      <item>
-        <title>bootstrap 03</title>
-        <description>&lt;p&gt;Hello this is a test&lt;/p&gt;</description>
-        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//bootstrap/bootstrap-03.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//bootstrap/bootstrap-03.html</guid>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Yupers&quot;}</category>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Mhmm&quot;}</category>
-        
-        
-        <category>bootstrap</category>
-        
-      </item>
-    
-      <item>
-        <title>bootstrap 02</title>
-        <description>&lt;p&gt;Hello this is a test&lt;/p&gt;</description>
-        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//bootstrap/bootstrap-02.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//bootstrap/bootstrap-02.html</guid>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Yupers&quot;}</category>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Mhmm&quot;}</category>
-        
-        
-        <category>bootstrap</category>
-        
-      </item>
-    
-      <item>
-        <title>bootstrap 01</title>
-        <description>&lt;p&gt;Hello this is a test&lt;/p&gt;</description>
-        <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//bootstrap/bootstrap-01.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//bootstrap/bootstrap-01.html</guid>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
-        
-        <category>{&quot;tag&quot;=&gt;&quot;Yupers&quot;}</category>
-        
-        
-        <category>bootstrap</category>
         
       </item>
     
