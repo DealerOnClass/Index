@@ -24,7 +24,8 @@
 // Grid
 //
 .grid {
-    @extend %grid--clear;    
+    @extend %grid--clear;   
+    margin: 0 rhythm(1)*-1;     
 }
 .grid--row {
     margin-bottom: rhythm(2);
@@ -34,6 +35,7 @@
 }
 .col {
     @extend %grid--clear;
+    padding: 0 rhythm(1);    
     @include media(medium) {
         float: left;
         @include box-sizing;

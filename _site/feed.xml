@@ -5,8 +5,8 @@
     <description>DealerOn Class Index</description>
     <link>http://asilvadesigns.com/Index//</link>
     <atom:link href="http://asilvadesigns.com/Index//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Feb 2015 10:32:44 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2015 10:32:44 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Feb 2015 10:39:37 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Feb 2015 10:39:37 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -42,6 +42,31 @@
         &lt;p&gt;
             &lt;code class=&quot;syntax&quot;&gt;
                 &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h1&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;syntax html--attribute&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;syntax html--value&quot;&gt;panel-heading&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;Chicken&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Opening Tag&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;
+            &lt;code class=&quot;syntax&quot;&gt;
+                &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;Element&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Closing Tag&lt;/h5&gt;
+        &lt;p&gt;*not all HTML elements have a closing tag.&lt;/p&gt;        
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;
+            &lt;code class=&quot;syntax&quot;&gt;
+                &lt;span class=&quot;syntax&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;Element&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
             &lt;/code&gt;
         &lt;/p&gt;
     &lt;/div&gt;
