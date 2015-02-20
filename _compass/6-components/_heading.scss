@@ -2,12 +2,22 @@
 //
 // Headings
 //
+%heading--uppercase {
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
 .heading--group {
     @include margin-trailer(2);
 }
 .heading--primary {
+    @include font(serif--bold);
     color: $heading--primary__color;
 }
 .heading--secondary {
+    @extend %heading--uppercase;
     color: $heading--secondary__color;    
+}
+.heading--aside {
+    @include font(sans--bold);    
+    color: $heading--secondary__color;
 }

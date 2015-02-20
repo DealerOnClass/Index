@@ -31,6 +31,22 @@
     }
     @else if $font-family == code--bold {
         font-family: "Inconsolata", sans-serif;
-        font-weight: 700;        
-    }    
+        font-weight: 700;
+    }
+    @else if $font-family == serif--regular {
+        font-family: "Playfair Display", serif;
+        font-weight: 400;
+    }
+    @else if $font-family == serif--bold {
+        font-family: "Playfair Display", serif;
+        font-weight: 700;
+    }
+    @else if $font-family == sans--regular {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+    }
+    @else if $font-family == sans--bold {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
 }

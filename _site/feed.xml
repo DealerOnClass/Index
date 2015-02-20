@@ -5,8 +5,8 @@
     <description>DealerOn Class Index</description>
     <link>http://asilvadesigns.com/Index//</link>
     <atom:link href="http://asilvadesigns.com/Index//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 19 Feb 2015 17:09:50 -0500</pubDate>
-    <lastBuildDate>Thu, 19 Feb 2015 17:09:50 -0500</lastBuildDate>
+    <pubDate>Fri, 20 Feb 2015 10:32:44 -0500</pubDate>
+    <lastBuildDate>Fri, 20 Feb 2015 10:32:44 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -29,16 +29,225 @@
     
       <item>
         <title>html 02</title>
-        <description>&lt;p&gt;Hello this is a test again&lt;/p&gt;</description>
+        <description>&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Syntax&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;
+            &lt;code class=&quot;syntax&quot;&gt;
+                &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;Element&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;syntax html--attribute&quot;&gt;Attribute&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;syntax html--value&quot;&gt;Value&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;Content&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;Element&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;p&gt;
+            &lt;code class=&quot;syntax&quot;&gt;
+                &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h1&amp;nbsp;&lt;/span&gt;&lt;span class=&quot;syntax html--attribute&quot;&gt;class&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;syntax html--value&quot;&gt;panel-heading&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;Chicken&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;lt;/&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Typographic Tags&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;table&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;h1&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/h1&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;h1&gt;Heading 1&lt;/h1&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;h2&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h2&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/h2&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;h2&gt;Heading 2&lt;/h2&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;h3&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h3&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/h3&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;h3&gt;Heading 3&lt;/h3&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;h4&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h4&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/h4&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;h4&gt;Heading 4&lt;/h4&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;h5&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h5&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/h5&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;h5&gt;Heading 5&lt;/h5&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;h6&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;h6&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/h6&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;h6&gt;Heading 6&lt;/h6&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;Paragraph text goes within the paragraph tage Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam nihil soluta praesentium excepturi fugit quae fugiat aperiam rerum, facere perspiciatis.&lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;code class=&quot;syntax&quot;&gt;
+                                &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;ul&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                            &lt;/code&gt;
+                        &lt;/li&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;
+                                &lt;code class=&quot;syntax&quot;&gt;
+                                    &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;li&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                                &lt;/code&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/ul&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;Unordered List Item 1&lt;/li&gt;
+                        &lt;li&gt;Unordered List Item 2&lt;/li&gt;
+                        &lt;li&gt;Unordered List Item 3&lt;/li&gt;                        
+                    &lt;/ul&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;ul&gt;
+                        &lt;li&gt;
+                            &lt;code class=&quot;syntax&quot;&gt;
+                                &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;ol&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                            &lt;/code&gt;
+                        &lt;/li&gt;
+                        &lt;ul&gt;
+                            &lt;li&gt;
+                                &lt;code class=&quot;syntax&quot;&gt;
+                                    &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;li&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                                &lt;/code&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
+                    &lt;/ul&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;ol&gt;
+                        &lt;li&gt;Ordered List Item 1&lt;/li&gt;
+                        &lt;li&gt;Ordered List Item 2&lt;/li&gt;
+                        &lt;li&gt;Ordered List Item 3&lt;/li&gt;                        
+                    &lt;/ol&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;
+                        &lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;em&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;
+                        &lt;em&gt;Emphasis&amp;nbsp;&lt;/em&gt;(italics by default)
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+                &lt;td&gt;
+                    &lt;p&gt;
+                        &lt;code class=&quot;syntax&quot;&gt;
+                            &lt;span class=&quot;syntax&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;syntax html--element&quot;&gt;strong&lt;/span&gt;&lt;span class=&quot;syntax&quot;&gt;&amp;gt;&lt;/span&gt;
+                        &lt;/code&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+                &lt;td&gt;
+                    &lt;p&gt;
+                        &lt;strong&gt;Strong&lt;/strong&gt;
+                    &lt;/p&gt;
+                &lt;/td&gt;
+            &lt;/tr&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Complete Reference&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.w3schools.com/tags/default.asp&quot;&gt;HTML Element Reference&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
         <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
         <link>http://asilvadesigns.com/Index//html/html-02.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/Index//html/html-02.html</guid>
         
-        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
+        <category>{&quot;tag&quot;=&gt;&quot;Element&quot;}</category>
         
-        <category>{&quot;tag&quot;=&gt;&quot;Yup&quot;}</category>
+        <category>{&quot;tag&quot;=&gt;&quot;Attribute&quot;}</category>
         
-        <category>{&quot;tag&quot;=&gt;&quot;Yea&quot;}</category>
+        <category>{&quot;tag&quot;=&gt;&quot;Value&quot;}</category>
         
         
         <category>html</category>
@@ -49,7 +258,7 @@
         <title>html 01</title>
         <description>&lt;div class=&quot;grid grid--row&quot;&gt;
     &lt;div class=&quot;col col--1&quot;&gt;
-        &lt;h5&gt;&lt;strong&gt;Intro&lt;/strong&gt;&lt;/h5&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Purpose&lt;/h5&gt;
     &lt;/div&gt;
     &lt;div class=&quot;col col--2&quot;&gt;
         &lt;p&gt;The purpose of DealerOn Academy is to equip you with fundamental knowledge and tools to be an effective coder at home in a production environment.&lt;/p&gt;
@@ -57,7 +266,15 @@
 &lt;/div&gt;
 &lt;div class=&quot;grid grid--row&quot;&gt;
     &lt;div class=&quot;col col--1&quot;&gt;
-        &lt;h5&gt;&lt;strong&gt;HTML&lt;/strong&gt;&lt;/h5&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Goal&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Upon completion HTML &amp;amp; CSS will no longer be an intimidating, convuluted language, but will be a tool just as a paintbrush is to an artist.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;HTML&lt;/h5&gt;
     &lt;/div&gt;
     &lt;div class=&quot;col col--2&quot;&gt;
         &lt;p&gt;HTML, practically speaking is a text document the browser can read. HTML is an acronym for:&lt;/p&gt;
@@ -73,9 +290,9 @@
         <link>http://asilvadesigns.com/Index//html/html-01.html</link>
         <guid isPermaLink="true">http://asilvadesigns.com/Index//html/html-01.html</guid>
         
-        <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
+        <category>{&quot;tag&quot;=&gt;&quot;Purpose&quot;}</category>
         
-        <category>{&quot;tag&quot;=&gt;&quot;Yup&quot;}</category>
+        <category>{&quot;tag&quot;=&gt;&quot;Goals&quot;}</category>
         
         
         <category>html</category>

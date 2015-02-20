@@ -2,7 +2,7 @@ body {
     color: $site__color;
     font-size: $small-font-size;
     line-height: $base-line-unit;
-    @include font(code--regular);
+    @include font(sans--regular);
     @include media(large) {
         font-size: $base-font-size;
     }
@@ -31,11 +31,20 @@ h6, small,
 .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p, ul {
+p, ul, ol {
     @include margin-trailer(1);
 }
+ul > ul, ol > ol {
+    margin-left: rhythm(.5);
+}
 strong, em {
-    @include font(code--bold);
+    @include font(sans--bold);
+}
+code {
+    @include font(code--regular);
+    strong, em {
+        @include font(code--bold);
+    }
 }
 a {
     color: $site__link__color;
