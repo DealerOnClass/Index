@@ -1,17 +1,29 @@
 <footer class="site__footer">
     <div class="wrapper">
-        <article class="grid">
-            <section class="col col--half">
-                <h5>Contact</h5>
-                <ul>
-                    <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <div class="small">
+            <article class="grid">
+                <section class="col col--half">
+                    <h5><strong>Colophon</strong></h5>
+                    <ul>Designed and devloped by <a href="mailto:{{ site.email }}">yours truly.</a> Made with Jekyll and hosted on Github Pages. CSS is written in SASS with Compass. Typeset in Inconsolata, Playfair, and Open Sans.</li>
+                    </ul>
+                </section>
+                <section class="col col--half">
+                    <h5><strong>Disclaimer</strong></h5>
+                    <p>The following is intended to be complimentary to the DealerOn class and is NOT a complete reference in itself. For a complete reference of HTML, CSS or other web technologies refer to the the googles.</p>
+                </section>
+            </article>
+            <p>&copy; 2015</p>
+        </div>
+    </div>    
+    <nav class="footer__nav">
+        <div class="wrapper">
+            <div class="small">
+                <ul class="nav nav--footer">
+                    {% assign pages_list = site.pages %}
+                    {% assign group = 'navigation' %}
+                    {% include pages_list.html %}
                 </ul>
-            </section>
-            <section class="col col--half">
-                <h5>Colophon</h5>
-                <p>Descriptive information should go here</p>
-                <p>&copy; 2015</p>
-            </section>
-        </article>
-    </div>
+            </div>
+        </div>
+    </nav>
 </footer>

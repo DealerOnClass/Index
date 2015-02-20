@@ -1,12 +1,52 @@
 ---
 layout: post--css
 title:  "css 02"
-date:   2015-2-19 18:20:27
+date:   2015-2-20 18:20:27
 categories: css
+heading--primary: Units
+heading--secondary: PX, PT, EM, REM, ...
 tags: 
-  - tag: Test
-  - tag: Yup
-  - tag: Test Again
-
+  - tag: px
+  - tag: pt
+  - tag: em
+  - tag: rem  
+  - tag: "%"    
 ---
-<p>Hello this is another test</p>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Units</h5>
+    </div>
+    <div class="col col--2">
+        <p>Technically, a unit is a quantity chosen to represent length. Within CSS we have several options available but we must intelligently choose the proper unit for the job considering the immediate function and context.</p>
+        <table>
+            <tr>
+                <td><p class="syntax">px</p></td>
+                <td><p>Relative to the physical pixel on screen.</p></td>
+            </tr>
+            <tr>
+                <td><p class="syntax">pt</p></td>
+                <td><p>1 pt is 1/72 of an inch, print unit, DO NOT USE.</p></td>
+            </tr>
+            <tr>
+                <td><p class="syntax">em</p></td>
+                <td><p>Relative to the font-size of the element. 1em means 1 times the size of the current font.</p></td>
+            </tr>
+            <tr>
+                <td><p class="syntax">rem</p></td>
+                <td><p>Relative to the font-size of the root element.</p></td>
+            </tr>
+            <tr>
+                <td><p class="syntax">%</p></td>
+                <td><p>Relative to containing element.</p></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Complete Reference</h5>
+    </div>
+    <div class="col col--2">
+        <p><a href="http://www.w3schools.com/cssref/css_units.asp">CSS Unit Reference</a></p>
+    </div>
+</div>

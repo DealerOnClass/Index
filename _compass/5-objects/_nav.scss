@@ -4,20 +4,6 @@
 //
 .nav {
 }
-.nav__item {    
-    @include media(large) {
-        float: right;
-        margin-left: rhythm(1);
-    }
-}
-.nav__link {
-    display: block;
-    padding: rhythm(.5) 0;
-    @include media(large) {
-        display: inline-block;
-        padding: rhythm(1) 0;
-    }
-}
 ////////////////////////////////////////////
 //
 // Nav responsive-nav.js 1.0.34 by @viljamis
@@ -31,7 +17,6 @@
     position: absolute;
     display: block;
     overflow: hidden;
-    // zoom: 1;
 }
 .nav--opened {
     max-height: 9999px;
@@ -43,7 +28,7 @@
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
-    // user-select: none;
+    user-select: none;
 }
 @include media(large) {
     .js .nav--collapse {
@@ -69,8 +54,7 @@
     &:before {
         content: "Menu";
         display: block;
-        color: $nav__toggle__color; /* Edit this to change the icon color */
-        // font-size: 28px;
+        color: $nav__toggle__color;
         position: absolute;
         text-align: right;
         line-height: rhythm(1);

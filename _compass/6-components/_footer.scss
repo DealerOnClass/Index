@@ -3,7 +3,13 @@
 // Site Nav
 //
 .site__footer {
-    padding: rhythm(2) 0;
+    padding: rhythm(2) 0 0;
     background-color: $site__footer__bg;
     color: white;
+    .small {
+        font-size: 16px;
+    }
+}
+.footer__nav {
+    background-color: darken($site__footer__bg, 5%);
 }

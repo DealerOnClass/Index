@@ -1,3 +1,10 @@
+%nav__clearfix {    
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
 ////////////////////////////////////////////
 //
 // Site Nav
@@ -11,6 +18,10 @@
         &:last-child .nav__link {
             padding-bottom: rhythm(1);
         }
+        @include media(large) {
+            float: right;
+            margin-left: rhythm(1);
+        }
     }
     .nav__item--left {    
         @include media(large) {
@@ -21,6 +32,12 @@
     .nav__link {
         color: white;
         text-transform: capitalize;
+        display: block;
+        padding: rhythm(.5) 0;
+        @include media(large) {
+            display: inline-block;
+            padding: rhythm(1) 0;
+        }
     }    
     .active {
         color: $nav__link--active__color;
@@ -35,20 +52,40 @@
 // Secondary Nav
 //
 .nav--secondary {
+    @extend %nav__clearfix;
     @include margin-trailer(2);
-    @include clearfix;
     .nav__item--left {    
         float:left;
-        margin-left: 0;
+    }
+    .nav__item--right {
+        float: right;
     }
     .nav__link {
         @include border-radius(.25rem);
         @include transition(.25s, color, ease-in-out);
+        display: block;
         background-color: $accent__color;
         color: white;
         padding: rhythm(.25) rhythm(.5);
         &:hover, &:active, &:focus {
             background-color: darken($accent__color, 5%);
         }
+    }
+}
+////////////////////////////////////////////
+//
+// Footer Nav
+//
+.nav--footer {
+    @extend %nav__clearfix;
+    margin-bottom: 0;
+    .nav__item {
+        float: left;
+        margin-right: rhythm(1);
+    }
+    .nav__link {
+        text-transform: capitalize;
+        display: inline-block;
+        padding: rhythm(.5) 0;
     }
 }

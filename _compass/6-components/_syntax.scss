@@ -6,10 +6,12 @@
     @include border-radius(.25rem);
     padding: rhythm(.25) rhythm(.5);
     background-color: #2D2D2D;
-    color: #FFF;    
+    color: #FFF;
+    word-break: break-all;
 }
 table .syntax {
     margin-right: rhythm(1);
+    word-break: normal;
 }
 %element { color: $syntax__element__color; }
 %attribute { color: $syntax__attribute__color; }
