@@ -58,9 +58,12 @@
         position: absolute;
         text-align: right;
         line-height: rhythm(1);
-        top: rhythm(1);
         speak: none;
         width: 100%;
+        top: rhythm(.5);
+        @include media(large) {
+            top: rhythm(1);
+        }
     }
 }
 .nav--active {
