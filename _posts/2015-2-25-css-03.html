@@ -1,0 +1,151 @@
+---
+layout: post--css
+title:  "css 03"
+date:   2015-2-20 18:20:27
+categories: css
+heading--primary: The Box Model
+heading--secondary: Fundamentally Primitive
+tags: 
+  - tag: Display
+  - tag: Margin
+  - tag: Padding
+---
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">CSS Box Model</h5>
+    </div>
+    <div class="col col--2">
+        <blockquote>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around HTML elements, and it consists of: margins, borders, padding, and the actual content.</blockquote>   
+        <p><a href="http://www.w3schools.com/css/css_boxmodel.asp">w3Schools</a></p>
+        <div class="box-model">
+            <div class="box-model__margin">
+                <span>Margin</span>
+                <div class="box-model__border">
+                    <span>Border</span>
+                    <div class="box-model__padding">
+                        <span>Padding</span>
+                        <div class="box-model__content">
+                            <span>Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Margin</h5>
+    </div>
+    <div class="col col--2">
+        <p>The space in between elements.</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">div&nbsp;</span><span>{</span><br><span class="css--indent css--property">margin</span><span>:</span><span class="css--value">1em;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="box-model">
+            <div class="box-model--enabled">
+                <span class="box-label--enabled">Margin</span>
+                <div class="box-model--disabled box-model--no-border">
+                    <span class="box-label--disabled">Border</span>
+                    <div class="box-model--disabled">
+                        <span class="box-label--disabled">Padding</span>
+                        <div class="box-model--disabled">
+                            <span class="box-label--disabled">Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Border</h5>
+    </div>
+    <div class="col col--2">
+        <p>Yup.</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">div&nbsp;</span><span>{</span><br><span class="css--indent css--property">border-width</span><span>:</span><span class="css--value">1em;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="box-model">
+            <div class="box-model--disabled">
+                <span class="box-label--disabled">Margin</span>
+                <div class="box-model--enabled">
+                    <span class="box-label--enabled">Border</span>
+                    <div class="box-model--disabled box-model--no-border">
+                        <span class="box-label--disabled">Padding</span>
+                        <div class="box-model--disabled">
+                            <span class="box-label--disabled">Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Padding</h5>
+    </div>
+    <div class="col col--2">
+        <p>Space between content and box.</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">div&nbsp;</span><span>{</span><br><span class="css--indent css--property">padding</span><span>:</span><span class="css--value">1em;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="box-model">
+            <div class="box-model--disabled">
+                <span class="box-label--disabled">Margin</span>
+                <div class="box-model--disabled">
+                    <span class="box-label--disabled">Border</span>
+                    <div class="box-model--enabled">
+                        <span class="box-label--enabled">Padding</span>
+                        <div class="box-model--disabled box-model--no-border">
+                            <span class="box-label--disabled">Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Block Elements</h5>
+        <p>( like &lt;div&gt; )</p>
+    </div>
+    <div class="col col--2">
+        <p>Render full width and stack on top of each other.</p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Inline-Block Elements</h5>
+        <p>( like &lt;img&gt; )</p>
+    </div>
+    <div class="col col--2">
+        <p>Render as a block but line up next to each other as inline elements.</p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Inline Elements</h5>
+        <p>( like &lt;span&gt; )</p>
+    </div>
+    <div class="col col--2">
+        <p>Is a default value for text.</p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Complete Reference</h5>
+    </div>
+    <div class="col col--2">
+        <p><a href="http://www.w3schools.com/css/css_boxmodel.asp">CSS Unit Reference</a></p>
+    </div>
+</div>

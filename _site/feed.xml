@@ -5,8 +5,8 @@
     <description>DealerOn Class Index</description>
     <link>http://asilvadesigns.com/Index//</link>
     <atom:link href="http://asilvadesigns.com/Index//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 20 Feb 2015 17:41:03 -0500</pubDate>
-    <lastBuildDate>Fri, 20 Feb 2015 17:41:03 -0500</lastBuildDate>
+    <pubDate>Wed, 25 Feb 2015 17:30:07 -0500</pubDate>
+    <lastBuildDate>Wed, 25 Feb 2015 17:30:07 -0500</lastBuildDate>
     <generator>Jekyll v2.5.2</generator>
     
       <item>
@@ -50,6 +50,162 @@
         
         
         <category>exercise</category>
+        
+      </item>
+    
+      <item>
+        <title>css 03</title>
+        <description>&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;CSS Box Model&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;blockquote&gt;All HTML elements can be considered as boxes. In CSS, the term &quot;box model&quot; is used when talking about design and layout. The CSS box model is essentially a box that wraps around HTML elements, and it consists of: margins, borders, padding, and the actual content.&lt;/blockquote&gt;   
+        &lt;p&gt;&lt;a href=&quot;http://www.w3schools.com/css/css_boxmodel.asp&quot;&gt;w3Schools&lt;/a&gt;&lt;/p&gt;
+        &lt;div class=&quot;box-model&quot;&gt;
+            &lt;div class=&quot;box-model__margin&quot;&gt;
+                &lt;span&gt;Margin&lt;/span&gt;
+                &lt;div class=&quot;box-model__border&quot;&gt;
+                    &lt;span&gt;Border&lt;/span&gt;
+                    &lt;div class=&quot;box-model__padding&quot;&gt;
+                        &lt;span&gt;Padding&lt;/span&gt;
+                        &lt;div class=&quot;box-model__content&quot;&gt;
+                            &lt;span&gt;Content&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Margin&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;The space in between elements.&lt;/p&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;div&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;margin&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;1em;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;box-model&quot;&gt;
+            &lt;div class=&quot;box-model--enabled&quot;&gt;
+                &lt;span class=&quot;box-label--enabled&quot;&gt;Margin&lt;/span&gt;
+                &lt;div class=&quot;box-model--disabled box-model--no-border&quot;&gt;
+                    &lt;span class=&quot;box-label--disabled&quot;&gt;Border&lt;/span&gt;
+                    &lt;div class=&quot;box-model--disabled&quot;&gt;
+                        &lt;span class=&quot;box-label--disabled&quot;&gt;Padding&lt;/span&gt;
+                        &lt;div class=&quot;box-model--disabled&quot;&gt;
+                            &lt;span class=&quot;box-label--disabled&quot;&gt;Content&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Border&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Yup.&lt;/p&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;div&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;border-width&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;1em;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;box-model&quot;&gt;
+            &lt;div class=&quot;box-model--disabled&quot;&gt;
+                &lt;span class=&quot;box-label--disabled&quot;&gt;Margin&lt;/span&gt;
+                &lt;div class=&quot;box-model--enabled&quot;&gt;
+                    &lt;span class=&quot;box-label--enabled&quot;&gt;Border&lt;/span&gt;
+                    &lt;div class=&quot;box-model--disabled box-model--no-border&quot;&gt;
+                        &lt;span class=&quot;box-label--disabled&quot;&gt;Padding&lt;/span&gt;
+                        &lt;div class=&quot;box-model--disabled&quot;&gt;
+                            &lt;span class=&quot;box-label--disabled&quot;&gt;Content&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Padding&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Space between content and box.&lt;/p&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;div&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;padding&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;1em;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;box-model&quot;&gt;
+            &lt;div class=&quot;box-model--disabled&quot;&gt;
+                &lt;span class=&quot;box-label--disabled&quot;&gt;Margin&lt;/span&gt;
+                &lt;div class=&quot;box-model--disabled&quot;&gt;
+                    &lt;span class=&quot;box-label--disabled&quot;&gt;Border&lt;/span&gt;
+                    &lt;div class=&quot;box-model--enabled&quot;&gt;
+                        &lt;span class=&quot;box-label--enabled&quot;&gt;Padding&lt;/span&gt;
+                        &lt;div class=&quot;box-model--disabled box-model--no-border&quot;&gt;
+                            &lt;span class=&quot;box-label--disabled&quot;&gt;Content&lt;/span&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Block Elements&lt;/h5&gt;
+        &lt;p&gt;( like &amp;lt;div&amp;gt; )&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Render full width and stack on top of each other.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Inline-Block Elements&lt;/h5&gt;
+        &lt;p&gt;( like &amp;lt;img&amp;gt; )&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Render as a block but line up next to each other as inline elements.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Inline Elements&lt;/h5&gt;
+        &lt;p&gt;( like &amp;lt;span&amp;gt; )&lt;/p&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Is a default value for text.&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Complete Reference&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.w3schools.com/css/css_boxmodel.asp&quot;&gt;CSS Unit Reference&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Fri, 20 Feb 2015 13:20:27 -0500</pubDate>
+        <link>http://asilvadesigns.com/Index//css/css-03.html</link>
+        <guid isPermaLink="true">http://asilvadesigns.com/Index//css/css-03.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Display&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Margin&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Padding&quot;}</category>
+        
+        
+        <category>css</category>
         
       </item>
     

@@ -31,7 +31,7 @@ h6, small,
 .zeta { 
     @include adjust-font-size-to($h6 * $base-font-size);
 }
-p, ul, ol {
+p, ul, ol, blockquote {
     @include margin-trailer(1);
 }
 ul > ul, ol > ol {
@@ -44,6 +44,24 @@ code {
     @include font(code--regular);
     strong, em {
         @include font(code--bold);
+    }
+}
+blockquote {    
+    quotes: "\201C""\201D""\2018""\2019";
+    position: relative;
+    &:before, &:after {
+        font-size: rhythm(2);
+        line-height: 1;
+        position: absolute;
+        color: $neutral__color--light;
+    }
+    &:before {        
+        left: rhythm(.35)*-1;
+        content: open-quote;
+    }
+    &:after {
+        right: rhythm(.35)*-1;
+        content: close-quote;
     }
 }
 a {

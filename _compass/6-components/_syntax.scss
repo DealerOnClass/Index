@@ -2,20 +2,21 @@
 //
 // SYNTAX
 //
+%syntax { background-color: #2D2D2D; color: #FFF; }
+%element { color: $syntax__element__color; }
+%attribute { color: $syntax__attribute__color; }
+%value { color: $syntax__value__color; }
+
 .syntax {
+    @extend %syntax;
     @include border-radius(.25rem);
     padding: rhythm(.25) rhythm(.5);
-    background-color: #2D2D2D;
-    color: #FFF;
     word-break: break-all;
 }
 table .syntax {
     margin-right: rhythm(1);
     word-break: normal;
 }
-%element { color: $syntax__element__color; }
-%attribute { color: $syntax__attribute__color; }
-%value { color: $syntax__value__color; }
 ////////////////////////////////////////////
 //
 // HTML
@@ -36,3 +37,74 @@ table .syntax {
 .css--indent {
     margin-left: rhythm(2);
 }
+////////////////////////////////////////////
+//
+// BOX MODEL
+//
+%box-model--rounded {    
+    @include border-radius(.25rem);
+}
+%box-model { 
+    padding: rhythm(.2) rhythm(.6125) rhythm(.6125);
+    @include media(large) {
+        padding: rhythm(.4) rhythm(1.25) rhythm(1.25);
+    }
+}
+.box-model { text-align: center; }
+.box-model__margin { 
+    background-color: #E8E8E8;
+    @extend %box-model;
+    @extend %box-model--rounded;
+}
+.box-model__border { 
+    background-color: $syntax__value__color;
+    @extend %box-model;
+    @extend %box-model--rounded;
+    span {
+        border-color: $syntax__value__color;
+    }
+}
+.box-model__padding { 
+    background-color: $syntax__attribute__color;
+    @extend %box-model;
+    @extend %box-model--rounded;
+    span {
+        border-color: $syntax__attribute__color;
+    }
+}
+.box-model__content { 
+    @extend %syntax;    
+    @extend %box-model--rounded;
+    padding: rhythm(.4);
+}
+
+
+.box-label--disabled { color: #666; }
+.box-label--enabled {
+    color: white;
+}
+.box-model--enabled {
+    background-color: $syntax__attribute__color;
+    @extend %box-model;
+    @extend %box-model--rounded;
+}
+.box-model--disabled { 
+    @extend %syntax;
+    @extend %box-model;
+    @extend %box-model--rounded;
+    border: 1px solid #666;
+}
+.box-model--no-border {
+    border: 0 none;
+}
+
+
+
+
+
+
+
+
+
+
+

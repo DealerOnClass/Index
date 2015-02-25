@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width initial-scale=1">
-    <meta name="description" content="            Units                Technically, a unit is a quantity chosen to represent length. Within CSS we have several options available but we must intel...">
-    <title>css 02</title>
+    <meta name="description" content="            CSS Box Model                All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and lay...">
+    <title>css 03</title>
     <link rel="stylesheet" href="/Index//css/screen.css">
     <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
@@ -76,37 +76,138 @@
     <article class="wrapper">
         <section>
             <header class="heading--group">
-                <h3 class="heading--primary">Units</h3>
-                <h5 class="heading--secondary">PX, PT, EM, REM, ...</h5>
+                <h3 class="heading--primary">The Box Model</h3>
+                <h5 class="heading--secondary">Fundamentally Primitive</h5>
             </header>
             <div class="grid grid--row">
     <div class="col col--1">
-        <h5 class="heading--aside">Units</h5>
+        <h5 class="heading--aside">CSS Box Model</h5>
     </div>
     <div class="col col--2">
-        <p>Technically, a unit is a quantity chosen to represent length. Within CSS we have several options available but we must intelligently choose the proper unit for the job considering the immediate function and context.</p>
-        <table>
-            <tr>
-                <td><p class="syntax">px</p></td>
-                <td><p>Relative to the physical pixel on screen.</p></td>
-            </tr>
-            <tr>
-                <td><p class="syntax">pt</p></td>
-                <td><p>1 pt is 1/72 of an inch, print unit, DO NOT USE.</p></td>
-            </tr>
-            <tr>
-                <td><p class="syntax">em</p></td>
-                <td><p>Relative to the font-size of the element. 1em means 1 times the size of the current font.</p></td>
-            </tr>
-            <tr>
-                <td><p class="syntax">rem</p></td>
-                <td><p>Relative to the font-size of the root element.</p></td>
-            </tr>
-            <tr>
-                <td><p class="syntax">%</p></td>
-                <td><p>Relative to containing element.</p></td>
-            </tr>
-        </table>
+        <blockquote>All HTML elements can be considered as boxes. In CSS, the term "box model" is used when talking about design and layout. The CSS box model is essentially a box that wraps around HTML elements, and it consists of: margins, borders, padding, and the actual content.</blockquote>   
+        <p><a href="http://www.w3schools.com/css/css_boxmodel.asp">w3Schools</a></p>
+        <div class="box-model">
+            <div class="box-model__margin">
+                <span>Margin</span>
+                <div class="box-model__border">
+                    <span>Border</span>
+                    <div class="box-model__padding">
+                        <span>Padding</span>
+                        <div class="box-model__content">
+                            <span>Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Margin</h5>
+    </div>
+    <div class="col col--2">
+        <p>The space in between elements.</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">div&nbsp;</span><span>{</span><br><span class="css--indent css--property">margin</span><span>:</span><span class="css--value">1em;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="box-model">
+            <div class="box-model--enabled">
+                <span class="box-label--enabled">Margin</span>
+                <div class="box-model--disabled box-model--no-border">
+                    <span class="box-label--disabled">Border</span>
+                    <div class="box-model--disabled">
+                        <span class="box-label--disabled">Padding</span>
+                        <div class="box-model--disabled">
+                            <span class="box-label--disabled">Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Border</h5>
+    </div>
+    <div class="col col--2">
+        <p>Yup.</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">div&nbsp;</span><span>{</span><br><span class="css--indent css--property">border-width</span><span>:</span><span class="css--value">1em;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="box-model">
+            <div class="box-model--disabled">
+                <span class="box-label--disabled">Margin</span>
+                <div class="box-model--enabled">
+                    <span class="box-label--enabled">Border</span>
+                    <div class="box-model--disabled box-model--no-border">
+                        <span class="box-label--disabled">Padding</span>
+                        <div class="box-model--disabled">
+                            <span class="box-label--disabled">Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Padding</h5>
+    </div>
+    <div class="col col--2">
+        <p>Space between content and box.</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">div&nbsp;</span><span>{</span><br><span class="css--indent css--property">padding</span><span>:</span><span class="css--value">1em;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="box-model">
+            <div class="box-model--disabled">
+                <span class="box-label--disabled">Margin</span>
+                <div class="box-model--disabled">
+                    <span class="box-label--disabled">Border</span>
+                    <div class="box-model--enabled">
+                        <span class="box-label--enabled">Padding</span>
+                        <div class="box-model--disabled box-model--no-border">
+                            <span class="box-label--disabled">Content</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Block Elements</h5>
+        <p>( like &lt;div&gt; )</p>
+    </div>
+    <div class="col col--2">
+        <p>Render full width and stack on top of each other.</p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Inline-Block Elements</h5>
+        <p>( like &lt;img&gt; )</p>
+    </div>
+    <div class="col col--2">
+        <p>Render as a block but line up next to each other as inline elements.</p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Inline Elements</h5>
+        <p>( like &lt;span&gt; )</p>
+    </div>
+    <div class="col col--2">
+        <p>Is a default value for text.</p>
     </div>
 </div>
 <div class="grid grid--row">
@@ -114,7 +215,7 @@
         <h5 class="heading--aside">Complete Reference</h5>
     </div>
     <div class="col col--2">
-        <p><a href="http://www.w3schools.com/cssref/css_units.asp">CSS Unit Reference</a></p>
+        <p><a href="http://www.w3schools.com/css/css_boxmodel.asp">CSS Unit Reference</a></p>
     </div>
 </div>
         </section>
@@ -137,20 +238,16 @@
             
             
                 
-                
-            
-                
                     
                         
                         <li class="nav__item nav__item--left">
-                            <a class="nav__link [ btn btn--cta ]" href="/Index//css/css-01.html">Prev</a>
+                            <a class="nav__link [ btn btn--cta ]" href="/Index//css/css-02.html">Prev</a>
                         </li>
                     
                     
-                        <li class="nav__item nav__item--right">
-                            <a class="nav__link [ btn btn--cta ]" href="/Index//css/css-03.html">Next</a>
-                        </li>
-                    
+                
+                
+            
                 
                 
             
