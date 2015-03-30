@@ -2,8 +2,8 @@
 title: DealerOn Academy
 email: alberto@dealeron.com
 description: DealerOn Class Index
-baseurl: "/Index/" # the subpath of your site, e.g. /blog/
-url: "http://asilvadesigns.com"
+baseurl: "/index/" # the subpath of your site, e.g. /blog/
+url: ""
 
 # Build settings
 permalink: :categories/:title.html

@@ -3,11 +3,224 @@
   <channel>
     <title>DealerOn Academy</title>
     <description>DealerOn Class Index</description>
-    <link>http://asilvadesigns.com/Index//</link>
-    <atom:link href="http://asilvadesigns.com/Index//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 25 Feb 2015 17:30:07 -0500</pubDate>
-    <lastBuildDate>Wed, 25 Feb 2015 17:30:07 -0500</lastBuildDate>
-    <generator>Jekyll v2.5.2</generator>
+    <link>/index//</link>
+    <atom:link href="/index//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 30 Mar 2015 17:36:17 -0400</pubDate>
+    <lastBuildDate>Mon, 30 Mar 2015 17:36:17 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>css 04</title>
+        <description>&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Float Property&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;blockquote&gt;The float property specifies whether or not a box element should float.&lt;/blockquote&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.w3schools.com/cssref/pr_class_float.asp&quot;&gt;w3Schools&lt;/a&gt;&lt;/p&gt;  
+        &lt;p&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context&quot;&gt;Block formatting context.&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Remember&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;ol&gt;
+            &lt;li&gt;Floated blocks display as inline-blocks&lt;/li&gt;
+            &lt;li&gt;The parent of a floated element requires special treatment*&lt;br&gt;
+                or&amp;hellip;the next element in document flow must be cleared.
+            &lt;/li&gt;
+            &lt;li&gt;Floats and widths are friends, along with box-sizing&amp;hellip;*&lt;/li&gt;
+            &lt;li&gt;Inline elements can float.&lt;/li&gt;
+        &lt;/ol&gt;
+        &lt;p&gt;&lt;small&gt;* see below&lt;/small&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;None&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;.float--none&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;float&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;none;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--none&quot;&gt;I&#39;m not floating.&lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero molestiae quasi placeat! Esse pariatur ea, atque velit repellat vel hic, molestias laudantium quasi, error qui sed!&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Left&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;.float--left&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;float&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;left;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--left&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--left&quot;&gt;We&#39;re floating left.&lt;/div&gt;
+            &lt;div class=&quot;float--left&quot;&gt;We&#39;re floating left.&lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Right&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;.float--right&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;float&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;right;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--right&quot;&gt;I&#39;m floating right.&lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias esse cumque quae, perferendis neque voluptate recusandae, rem soluta quam error reiciendis consequuntur. Officia delectus quidem blanditiis eum incidunt temporibus nobis?&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--right&quot;&gt;We&#39;re floating right.&lt;/div&gt;
+            &lt;div class=&quot;float--right&quot;&gt;We&#39;re floating right.&lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Both&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;.float--left&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;float&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;left;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--selector&quot;&gt;.float--right&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;float&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;right;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--left&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+            &lt;div class=&quot;float--right&quot;&gt;I&#39;m floating right.&lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Simple Grid&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+            &lt;span class=&quot;css--selector&quot;&gt;.float--left&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;
+            &lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;float&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;left;&lt;/span&gt;
+            &lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;width&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;50%;&lt;/span&gt;
+            &lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;box-sizing&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;border-box;&lt;/span&gt;
+            &lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--left&quot; style=&quot;width:50%; box-sizing: border-box;&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+            &lt;div class=&quot;float--left&quot; style=&quot;width:50%; box-sizing: border-box;margin-left: 0;&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+            &lt;span class=&quot;css--selector&quot;&gt;.float--left&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;
+            &lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;float&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;left;&lt;/span&gt;
+            &lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;width&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;25%;&lt;/span&gt;
+            &lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;box-sizing&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;border-box;&lt;/span&gt;
+            &lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--left&quot; style=&quot;width:25%; box-sizing: border-box;&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+            &lt;div class=&quot;float--left&quot; style=&quot;width:25%; box-sizing: border-box;margin-left: 0;&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+            &lt;div class=&quot;float--left&quot; style=&quot;width:25%; box-sizing: border-box;margin-left: 0;&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+            &lt;div class=&quot;float--left&quot; style=&quot;width:25%; box-sizing: border-box;margin-left: 0;&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Parent Cleared&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Telling the div to hide overflowing elements is one of many techniques used to keep the parent of a floated element in document flow. Or you can use the clear property on the next element.&lt;/p&gt;
+        &lt;p&gt;Check out other techniques &lt;a href=&quot;http://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/&quot;&gt;here&lt;/a&gt; or simply Google &quot;techniques for clearing floats&quot;.&lt;/p&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;.float--cleared&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;overflow&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;hidden;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--cleared&quot;&gt;
+                &lt;div class=&quot;float--left&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+                &lt;div class=&quot;float--right&quot;&gt;I&#39;m floating right.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Parent Not Cleared&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;Notice how the parent element is collapsed.&lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--not-cleared&quot;&gt;
+                &lt;div class=&quot;float--left&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+                &lt;div class=&quot;float--right&quot;&gt;I&#39;m floating right.&lt;/div&gt;
+            &lt;/div&gt;
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Next element cleared&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p class=&quot;syntax&quot;&gt;
+            &lt;code&gt;
+                &lt;span class=&quot;css--selector&quot;&gt;p&amp;nbsp;&lt;/span&gt;&lt;span&gt;{&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;css--indent css--property&quot;&gt;clear&lt;/span&gt;&lt;span&gt;:&lt;/span&gt;&lt;span class=&quot;css--value&quot;&gt;both;&lt;/span&gt;&lt;br&gt;&lt;span&gt;}&lt;/span&gt;
+            &lt;/code&gt;
+        &lt;/p&gt;
+        &lt;div class=&quot;float--example&quot;&gt;
+            &lt;div class=&quot;float--left&quot;&gt;I&#39;m floating left.&lt;/div&gt;
+            &lt;p style=&quot;clear:both;&quot;&gt;I&#39;m clearing the floats out! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;grid grid--row&quot;&gt;
+    &lt;div class=&quot;col col--1&quot;&gt;
+        &lt;h5 class=&quot;heading--aside&quot;&gt;Complete Reference&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;col col--2&quot;&gt;
+        &lt;p&gt;&lt;a href=&quot;http://www.w3schools.com/cssref/pr_class_float.asp&quot;&gt;Float Property Reference&lt;/a&gt;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</description>
+        <pubDate>Mon, 30 Mar 2015 14:20:27 -0400</pubDate>
+        <link>/index//css/css-04.html</link>
+        <guid isPermaLink="true">/index//css/css-04.html</guid>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Left&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Right&quot;}</category>
+        
+        <category>{&quot;tag&quot;=&gt;&quot;Clear&quot;}</category>
+        
+        
+        <category>css</category>
+        
+      </item>
     
       <item>
         <title>exercise 02</title>
@@ -41,15 +254,15 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Fri, 20 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//exercise/exercise-02.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//exercise/exercise-02.html</guid>
+        <link>/index//practicalexercises/exercise-02.html</link>
+        <guid isPermaLink="true">/index//practicalexercises/exercise-02.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;HTML&quot;}</category>
         
         <category>{&quot;tag&quot;=&gt;&quot;Document Structure&quot;}</category>
         
         
-        <category>exercise</category>
+        <category>practicalexercises</category>
         
       </item>
     
@@ -195,8 +408,8 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Fri, 20 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//css/css-03.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//css/css-03.html</guid>
+        <link>/index//css/css-03.html</link>
+        <guid isPermaLink="true">/index//css/css-03.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Display&quot;}</category>
         
@@ -250,8 +463,8 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Fri, 20 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//css/css-02.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//css/css-02.html</guid>
+        <link>/index//css/css-02.html</link>
+        <guid isPermaLink="true">/index//css/css-02.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;px&quot;}</category>
         
@@ -302,8 +515,8 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Fri, 20 Feb 2015 09:22:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//html/html-03.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//html/html-03.html</guid>
+        <link>/index//html/html-03.html</link>
+        <guid isPermaLink="true">/index//html/html-03.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;DOCTYPE&quot;}</category>
         
@@ -540,8 +753,8 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//html/html-02.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//html/html-02.html</guid>
+        <link>/index//html/html-02.html</link>
+        <guid isPermaLink="true">/index//html/html-02.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Element&quot;}</category>
         
@@ -587,8 +800,8 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//html/html-01.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//html/html-01.html</guid>
+        <link>/index//html/html-01.html</link>
+        <guid isPermaLink="true">/index//html/html-01.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Purpose&quot;}</category>
         
@@ -632,15 +845,15 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//exercise/exercise-01.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//exercise/exercise-01.html</guid>
+        <link>/index//practicalexercises/exercise-01.html</link>
+        <guid isPermaLink="true">/index//practicalexercises/exercise-01.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;HTML&quot;}</category>
         
         <category>{&quot;tag&quot;=&gt;&quot;Typographic Elements&quot;}</category>
         
         
-        <category>exercise</category>
+        <category>practicalexercises</category>
         
       </item>
     
@@ -803,8 +1016,8 @@
     &lt;/div&gt;
 &lt;/div&gt;</description>
         <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//css/css-01.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//css/css-01.html</guid>
+        <link>/index//css/css-01.html</link>
+        <guid isPermaLink="true">/index//css/css-01.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Selector&quot;}</category>
         
@@ -821,8 +1034,8 @@
         <title>class 01</title>
         <description>&lt;p&gt;Hello this is a test again&lt;/p&gt;</description>
         <pubDate>Thu, 19 Feb 2015 13:20:27 -0500</pubDate>
-        <link>http://asilvadesigns.com/Index//class/class-01.html</link>
-        <guid isPermaLink="true">http://asilvadesigns.com/Index//class/class-01.html</guid>
+        <link>/index//class/class-01.html</link>
+        <guid isPermaLink="true">/index//class/class-01.html</guid>
         
         <category>{&quot;tag&quot;=&gt;&quot;Test&quot;}</category>
         

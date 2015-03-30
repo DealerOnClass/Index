@@ -97,9 +97,59 @@ table .syntax {
 .box-model--no-border {
     border: 0 none;
 }
-
-
-
+////////////////////////////////////////////
+//
+// FLOAT
+//
+%float--container {
+    @extend %box-model--rounded;
+    overflow: hidden;
+    padding: rhythm(.6125);
+}
+%float--nested {
+    overflow: hidden;
+    padding: rhythm(.6125);
+    background-color: lighten($neutral__color, 65%);
+}
+%float--border {
+    border: 1px solid $accent__color;
+}
+.float--cleared {
+    @extend %float--container;
+    @extend %float--border;
+    @include margin-trailer(1);
+}
+.float--not-cleared {
+    @extend %float--border;    
+}
+.float--example {
+    @extend %float--container;
+    background-color: lighten($neutral__color, 75%);
+    & + &, & + .syntax {
+        @include margin-leader(1);
+    }
+}
+.float--left {
+    @extend %float--container;
+    @extend %float--nested;
+    float: left;
+    & + & {
+        margin-left: rhythm(.6125);
+    }
+}
+.float--right {
+    @extend %float--container;
+    @extend %float--nested;
+    float: right;
+    & + & {
+        margin-right: rhythm(.6125);
+    }
+}
+.float--none {
+    @extend %float--container;
+    @extend %float--nested;
+    float: none;
+}
 
 
 

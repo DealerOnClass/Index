@@ -1,10 +1,11 @@
 ---
 layout: page
-title: exercise
-permalink: /exercise/
+title: Practical Exercises
+permalink: /practicalexercises/
+group: "navigation"
 ---
 <ul>    
-    {% for post in site.categories['exercise'] reversed %}
+    {% for post in site.categories['practicalexercises'] reversed %}
     <li>
         <a href="{{ post.url | prepend: site.baseurl }}">
             <span class="post__title">{{ post.heading--primary }}</span>

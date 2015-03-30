@@ -1,0 +1,208 @@
+---
+layout: post--css
+title:  "css 04"
+date:   2015-3-30 18:20:27
+categories: css
+heading--primary: Float
+heading--secondary: Just add water.
+tags: 
+  - tag: Left
+  - tag: Right
+  - tag: Clear
+---
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Float Property</h5>
+    </div>
+    <div class="col col--2">
+        <blockquote>The float property specifies whether or not a box element should float.</blockquote>
+        <p><a href="http://www.w3schools.com/cssref/pr_class_float.asp">w3Schools</a></p>  
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context">Block formatting context.</a></p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Remember</h5>
+    </div>
+    <div class="col col--2">
+        <ol>
+            <li>Floated blocks display as inline-blocks</li>
+            <li>The parent of a floated element requires special treatment*<br>
+                or&hellip;the next element in document flow must be cleared.
+            </li>
+            <li>Floats and widths are friends, along with box-sizing&hellip;*</li>
+            <li>Inline elements can float.</li>
+        </ol>
+        <p><small>* see below</small></p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">None</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--none&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">none;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--none">I'm not floating.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero molestiae quasi placeat! Esse pariatur ea, atque velit repellat vel hic, molestias laudantium quasi, error qui sed!</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Left</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--left&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left">I'm floating left.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+        <div class="float--example">
+            <div class="float--left">We're floating left.</div>
+            <div class="float--left">We're floating left.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Right</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--right&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">right;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--right">I'm floating right.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias esse cumque quae, perferendis neque voluptate recusandae, rem soluta quam error reiciendis consequuntur. Officia delectus quidem blanditiis eum incidunt temporibus nobis?</p>
+        </div>
+        <div class="float--example">
+            <div class="float--right">We're floating right.</div>
+            <div class="float--right">We're floating right.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Both</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--left&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span><br><span>}</span><br><span class="css--selector">.float--right&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">right;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left">I'm floating left.</div>
+            <div class="float--right">I'm floating right.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Simple Grid</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+            <span class="css--selector">.float--left&nbsp;</span><span>{</span>
+            <br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span>
+            <br><span class="css--indent css--property">width</span><span>:</span><span class="css--value">50%;</span>
+            <br><span class="css--indent css--property">box-sizing</span><span>:</span><span class="css--value">border-box;</span>
+            <br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left" style="width:50%; box-sizing: border-box;">I'm floating left.</div>
+            <div class="float--left" style="width:50%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+        </div>
+        <p class="syntax">
+            <code>
+            <span class="css--selector">.float--left&nbsp;</span><span>{</span>
+            <br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span>
+            <br><span class="css--indent css--property">width</span><span>:</span><span class="css--value">25%;</span>
+            <br><span class="css--indent css--property">box-sizing</span><span>:</span><span class="css--value">border-box;</span>
+            <br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left" style="width:25%; box-sizing: border-box;">I'm floating left.</div>
+            <div class="float--left" style="width:25%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+            <div class="float--left" style="width:25%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+            <div class="float--left" style="width:25%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Parent Cleared</h5>
+    </div>
+    <div class="col col--2">
+        <p>Telling the div to hide overflowing elements is one of many techniques used to keep the parent of a floated element in document flow. Or you can use the clear property on the next element.</p>
+        <p>Check out other techniques <a href="http://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/">here</a> or simply Google "techniques for clearing floats".</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--cleared&nbsp;</span><span>{</span><br><span class="css--indent css--property">overflow</span><span>:</span><span class="css--value">hidden;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--cleared">
+                <div class="float--left">I'm floating left.</div>
+                <div class="float--right">I'm floating right.</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Parent Not Cleared</h5>
+    </div>
+    <div class="col col--2">
+        <p>Notice how the parent element is collapsed.</p>
+        <div class="float--example">
+            <div class="float--not-cleared">
+                <div class="float--left">I'm floating left.</div>
+                <div class="float--right">I'm floating right.</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Next element cleared</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">p&nbsp;</span><span>{</span><br><span class="css--indent css--property">clear</span><span>:</span><span class="css--value">both;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left">I'm floating left.</div>
+            <p style="clear:both;">I'm clearing the floats out! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Complete Reference</h5>
+    </div>
+    <div class="col col--2">
+        <p><a href="http://www.w3schools.com/cssref/pr_class_float.asp">Float Property Reference</a></p>
+    </div>
+</div>

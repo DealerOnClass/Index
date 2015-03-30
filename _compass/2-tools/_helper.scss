@@ -2,7 +2,7 @@
 //
 // Helper
 //
-.sub .hidden--sub {
+.hidden, .sub .hidden--sub {
     display: none;
 }
 .hidden__small {
@@ -15,6 +15,9 @@
     @include media(large) {
         display: none;
     }
+}
+.go-right {
+    float: right;
 }
 .counter--reset {
     counter-reset: section;

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <meta name="description" content="            Float Property                The float property specifies whether or not a box element should float.        w3Schools          Block formatting ...">
+    <title>css 04</title>
+    <link rel="stylesheet" href="/index//css/screen.css">
+    <link href='http://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <script src="/index//js/nav.js"></script>
+</head>
+
+<body class="sub">
+
+    <nav class="site__nav">
+    <article class="wrapper">
+        <ul class="nav nav--primary nav--collapse">
+            <li class="nav__item nav__item--left">
+                <a class="nav__link" href="/index/">
+                    <span class="hidden__small logo">DealerOn Academy</span>
+                    <span class="hidden__large">Index</span>
+                </a>
+            </li>
+            
+            
+            <!-- http://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar -->
+
+    
+
+    
+        
+        <li class="nav__item">
+            <a class="nav__link" href="/index//practicalexercises/">Practical Exercises</a>
+        </li>
+        
+    
+
+    
+
+    
+        
+        <li class="nav__item">
+            <a class="nav__link" href="/index//html/">html</a>
+        </li>
+        
+    
+
+    
+
+    
+        
+        <li class="nav__item">
+            <a class="nav__link" href="/index//css/">css</a>
+        </li>
+        
+    
+
+
+
+        </ul>
+    </article>
+</nav>
+<header class="site__header">
+    <article class="wrapper">
+        <p class="logo">
+            <a class="hidden__large" href="/index/">DealerOn Academy</a>
+        </p>
+    </article>
+</header>
+
+    <main class="site__main">
+    <article class="wrapper">
+        <section>
+            <header class="heading--group">
+                <h3 class="heading--primary">Float</h3>
+                <h5 class="heading--secondary">Just add water.</h5>
+            </header>
+            <div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Float Property</h5>
+    </div>
+    <div class="col col--2">
+        <blockquote>The float property specifies whether or not a box element should float.</blockquote>
+        <p><a href="http://www.w3schools.com/cssref/pr_class_float.asp">w3Schools</a></p>  
+        <p><a href="https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context">Block formatting context.</a></p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Remember</h5>
+    </div>
+    <div class="col col--2">
+        <ol>
+            <li>Floated blocks display as inline-blocks</li>
+            <li>The parent of a floated element requires special treatment*<br>
+                or&hellip;the next element in document flow must be cleared.
+            </li>
+            <li>Floats and widths are friends, along with box-sizing&hellip;*</li>
+            <li>Inline elements can float.</li>
+        </ol>
+        <p><small>* see below</small></p>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">None</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--none&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">none;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--none">I'm not floating.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero molestiae quasi placeat! Esse pariatur ea, atque velit repellat vel hic, molestias laudantium quasi, error qui sed!</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Left</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--left&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left">I'm floating left.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+        <div class="float--example">
+            <div class="float--left">We're floating left.</div>
+            <div class="float--left">We're floating left.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Right</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--right&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">right;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--right">I'm floating right.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias esse cumque quae, perferendis neque voluptate recusandae, rem soluta quam error reiciendis consequuntur. Officia delectus quidem blanditiis eum incidunt temporibus nobis?</p>
+        </div>
+        <div class="float--example">
+            <div class="float--right">We're floating right.</div>
+            <div class="float--right">We're floating right.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Both</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--left&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span><br><span>}</span><br><span class="css--selector">.float--right&nbsp;</span><span>{</span><br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">right;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left">I'm floating left.</div>
+            <div class="float--right">I'm floating right.</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Simple Grid</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+            <span class="css--selector">.float--left&nbsp;</span><span>{</span>
+            <br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span>
+            <br><span class="css--indent css--property">width</span><span>:</span><span class="css--value">50%;</span>
+            <br><span class="css--indent css--property">box-sizing</span><span>:</span><span class="css--value">border-box;</span>
+            <br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left" style="width:50%; box-sizing: border-box;">I'm floating left.</div>
+            <div class="float--left" style="width:50%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+        </div>
+        <p class="syntax">
+            <code>
+            <span class="css--selector">.float--left&nbsp;</span><span>{</span>
+            <br><span class="css--indent css--property">float</span><span>:</span><span class="css--value">left;</span>
+            <br><span class="css--indent css--property">width</span><span>:</span><span class="css--value">25%;</span>
+            <br><span class="css--indent css--property">box-sizing</span><span>:</span><span class="css--value">border-box;</span>
+            <br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left" style="width:25%; box-sizing: border-box;">I'm floating left.</div>
+            <div class="float--left" style="width:25%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+            <div class="float--left" style="width:25%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+            <div class="float--left" style="width:25%; box-sizing: border-box;margin-left: 0;">I'm floating left.</div>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Parent Cleared</h5>
+    </div>
+    <div class="col col--2">
+        <p>Telling the div to hide overflowing elements is one of many techniques used to keep the parent of a floated element in document flow. Or you can use the clear property on the next element.</p>
+        <p>Check out other techniques <a href="http://www.sitepoint.com/clearing-floats-overview-different-clearfix-methods/">here</a> or simply Google "techniques for clearing floats".</p>
+        <p class="syntax">
+            <code>
+                <span class="css--selector">.float--cleared&nbsp;</span><span>{</span><br><span class="css--indent css--property">overflow</span><span>:</span><span class="css--value">hidden;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--cleared">
+                <div class="float--left">I'm floating left.</div>
+                <div class="float--right">I'm floating right.</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Parent Not Cleared</h5>
+    </div>
+    <div class="col col--2">
+        <p>Notice how the parent element is collapsed.</p>
+        <div class="float--example">
+            <div class="float--not-cleared">
+                <div class="float--left">I'm floating left.</div>
+                <div class="float--right">I'm floating right.</div>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Next element cleared</h5>
+    </div>
+    <div class="col col--2">
+        <p class="syntax">
+            <code>
+                <span class="css--selector">p&nbsp;</span><span>{</span><br><span class="css--indent css--property">clear</span><span>:</span><span class="css--value">both;</span><br><span>}</span>
+            </code>
+        </p>
+        <div class="float--example">
+            <div class="float--left">I'm floating left.</div>
+            <p style="clear:both;">I'm clearing the floats out! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est adipisci quam tempora nulla dicta officia soluta asperiores id corporis repellendus. Consectetur minus adipisci ratione consequatur.</p>
+        </div>
+    </div>
+</div>
+<div class="grid grid--row">
+    <div class="col col--1">
+        <h5 class="heading--aside">Complete Reference</h5>
+    </div>
+    <div class="col col--2">
+        <p><a href="http://www.w3schools.com/cssref/pr_class_float.asp">Float Property Reference</a></p>
+    </div>
+</div>
+        </section>
+        <nav>
+            <ul class="nav nav--secondary">
+            
+            
+                
+            
+            
+                
+                    
+                
+            
+            
+                
+            
+            
+                
+            
+            
+                
+                    
+                        
+                        <li class="nav__item nav__item--left">
+                            <a class="nav__link [ btn btn--cta ]" href="/index//css/css-03.html">Prev</a>
+                        </li>
+                    
+                    
+                
+                
+            
+                
+                
+            
+                
+                
+            
+                
+                
+            
+            </ul>
+        </nav>
+    </article>
+</main>
+
+    <footer class="site__footer">
+    <div class="wrapper">
+        <div class="small">
+            <article class="grid">
+                <section class="col col--half">
+                    <h5><strong>Colophon</strong></h5>
+                    <ul>Designed and devloped by <a href="mailto:alberto@dealeron.com">yours truly.</a> Made with Jekyll and hosted on Github Pages. CSS is written in SASS with Compass. Typeset in Inconsolata, Playfair, and Open Sans. Code <a href="https://github.com/DealerOnClass/Index">here</a></li>
+                    </ul>
+                </section>
+                <section class="col col--half">
+                    <h5><strong>Disclaimer</strong></h5>
+                    <p>The following is intended to be complimentary to the DealerOn class and is NOT a complete reference in itself. For a complete reference of HTML, CSS or other web technologies refer to the the googles.</p>
+                </section>
+            </article>
+            <p>&copy; 2015</p>
+        </div>
+    </div>    
+    <nav class="footer__nav">
+        <div class="wrapper">
+            <div class="small">
+                <ul class="nav nav--footer">
+                    
+                    
+                    <!-- http://stackoverflow.com/questions/8340170/jekyll-automatically-highlight-current-tab-in-menu-bar -->
+
+    
+
+    
+        
+        <li class="nav__item">
+            <a class="nav__link" href="/index//practicalexercises/">Practical Exercises</a>
+        </li>
+        
+    
+
+    
+
+    
+        
+        <li class="nav__item">
+            <a class="nav__link" href="/index//html/">html</a>
+        </li>
+        
+    
+
+    
+
+    
+        
+        <li class="nav__item">
+            <a class="nav__link" href="/index//css/">css</a>
+        </li>
+        
+    
+
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</footer>
+
+    <script>
+var navigation = responsiveNav(".nav--collapse", {
+    animate: true,                    // Boolean: Use CSS3 transitions, true or false
+    transition: 284,                  // Integer: Speed of the transition, in milliseconds
+  //label: "Menu",                    // String: Label for the navigation toggle
+    insert: "after",                  // String: Insert the toggle before or after the navigation
+    customToggle: "",                 // Selector: Specify the ID of a custom toggle
+    closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+    openPos: "relative",              // String: Position of the opened nav, relative or static
+    navClass: "nav--collapse",        // String: Default CSS class. If changed, you need to edit the CSS too!
+    navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+    jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+    init: function(){},               // Function: Init callback
+    open: function(){},               // Function: Open callback
+    close: function(){}               // Function: Close callback
+});
+</script>
+
+</body>
+
+</html>

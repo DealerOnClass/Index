@@ -3,16 +3,31 @@
 // Button
 //
 .btn {
-    display: block;
+    display: inline-block;
+    padding: rhythm(.25) rhythm(.5);
+
+}
+.btn--small {
+    padding: 0 rhythm(.25);
 }
 .btn--cta {
     @include border-radius(.25rem);
     @include transition(.25s, background-color, ease-in-out);
     background-color: $accent__color;
     color: white;
-    padding: rhythm(.25) rhythm(.5);
     &:hover, &:active, &:focus {
         color: white;        
         background-color: darken($accent__color, 5%);
+    }
+}
+
+.btn--secondary {
+    @include border-radius(.25rem);
+    @include transition(.25s, background-color, ease-in-out);
+    background-color: $neutral__color--light;
+    color: white;
+    &:hover, &:active, &:focus {
+        color: white;        
+        background-color: darken($neutral__color--light, 5%);
     }
 }

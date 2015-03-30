@@ -23,6 +23,9 @@ class: home
                     </li>
                     {% endfor %}
                 </ul>
+                <a href="html{{ prepend: site.baseurl }}" class="btn btn--small btn--secondary">
+                    <small>View All</small>
+                </a>
             </div>
         </section>
         <section class="grid grid--row">
@@ -44,6 +47,9 @@ class: home
                     </li>
                     {% endfor %}
                 </ul>
+                <a href="css{{ prepend: site.baseurl }}" class="btn btn--small btn--secondary">
+                    <small>View All</small>
+                </a>
             </div>
         </section>
         <section class="grid grid--row">
@@ -52,7 +58,7 @@ class: home
             </div>
             <div class="col col--2">
                 <ul>
-                    {% for post in site.categories['exercise'] reversed limit: 3 %}
+                    {% for post in site.categories['practicalexercises'] reversed limit: 3 %}
                     <li>
                         <a href="{{ post.url | prepend: site.baseurl }}">
                             <span class="post__title">{{ post.heading--primary }}</span>
@@ -65,6 +71,9 @@ class: home
                     </li>
                     {% endfor %}
                 </ul>
+                <a href="exercise{{ prepend: site.baseurl }}" class="btn btn--small btn--secondary">
+                    <small>View All</small>
+                </a>
             </div>
         </section>
     </article>

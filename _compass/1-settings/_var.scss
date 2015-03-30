@@ -63,4 +63,4 @@ $syntax__element__color: #F27770;
 $syntax__attribute__color: #F99150;
 $syntax__value__color: #99CC99;
 
-$grid--row__border: $neutral__color--light;
+$grid--row__border: lighten($neutral__color, 75%);;
