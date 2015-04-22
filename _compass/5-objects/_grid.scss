@@ -37,6 +37,15 @@
         border-bottom: 1px solid $grid--row__border;
     }
 }
+.grid--row--small {
+    margin-bottom: rhythm(.5);
+    &:last-child {
+        margin-bottom: rhythm(.5);
+    }
+    &:not(:last-child) {
+        border-bottom: 1px solid $grid--row__border;
+    }
+}
 .col {
     @extend %grid--clear;
     padding: 0 rhythm(1);    
@@ -45,14 +54,20 @@
         @include box-sizing;
     }
 }
-@include media(medium) {
+@include media(medium) {    
     .col--1 {
-        width: 1/3 *100%;
+        width: percentage(1/3);
     }
     .col--2 {
-        width: 2/3 *100%;
+        width: percentage(2/3);
     }
     .col--half {
-        width: 1/2 *100%;    
+        width: percentage(1/2);
+    }
+    .col--fourth {
+        width: percentage(1/4);        
+    }
+    .col--offset--fourth {        
+        margin-left: percentage(1/4);
     }
 }

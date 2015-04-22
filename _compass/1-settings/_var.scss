@@ -63,4 +63,7 @@ $syntax__element__color: #F27770;
 $syntax__attribute__color: #F99150;
 $syntax__value__color: #99CC99;
 
-$grid--row__border: lighten($neutral__color, 75%);;
+$grid--row__border: lighten($neutral__color, 75%);
+
+$progress__color: $accent__color;
+$progress__border: $accent__color;

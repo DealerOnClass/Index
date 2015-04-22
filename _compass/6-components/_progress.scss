@@ -1,0 +1,44 @@
+////////////////////////////////////////////
+//
+// Progress Bar
+//
+[class*="progress--"] {
+    border: 1px solid $progress__border;
+    @include margin-leader(.25);
+    &:after {
+        background-color: $progress--color;
+        content: "";
+        display: block;
+        height: rhythm(.5);
+    }
+}
+.progress--10:after {
+    width: 10%;
+}
+.progress--20:after {
+    width: 20%;
+}
+.progress--30:after {
+    width: 30%;
+}
+.progress--40:after {
+    width: 40%;
+}
+.progress--50:after {
+    width: 50%;
+}
+.progress--60:after {
+    width: 60%;
+}
+.progress--70:after {
+    width: 70%;
+}
+.progress--80:after {
+    width: 80%;
+}
+.progress--90:after {
+    width: 90%;
+}
+.progress--100:after {
+    width:1 00%;
+}
